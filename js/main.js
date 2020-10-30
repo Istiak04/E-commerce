@@ -63,10 +63,10 @@ $(".brand").slick({
 //--------Events----------------------------------------
 
 // ------------newsletter appear------------------------
-// $(window).ready(function(){
-//   console.log("loaded")
-//   $("#newsletter-overlay").fadeIn();
-// });
+$(window).ready(function(){
+  console.log("loaded")
+  $("#newsletter-overlay").fadeIn();
+});
 
 // -----close modal-------------------------------------
 $(".close").click(function(){
@@ -75,7 +75,7 @@ $(".close").click(function(){
 })
 
 // // ----prevent Scroll------------------------------------
-// $('body').addClass('stop-scrolling');
+ $('body').addClass('stop-scrolling');
 
 
 $('.hamburger-menu').click(function(evt){
